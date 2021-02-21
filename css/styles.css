@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5% !important;
+}
+ul,h1,h2,h3,h4,h5,h6{
+ margin: 0;
+}
+body{
+    font-size: 1.4rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+/* header styles*/
+#header{
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: whitesmoke;
+}
+#header #logo-name{
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+#header #logo-name h1{
+    font-weight: bold;
+    margin-left: 1rem;
+   
+}
+#header nav{
+    width: 66%;
+    float: right;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+#header nav ul{
+    list-style: none;
+    padding-top: 1rem;
+}
+#header nav ul li{
+    display: inline;
+}
+#header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.8rem !important;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+#header nav ul li a:hover{
+    text-decoration: none;
+    color: #ddd;
+    border-bottom: 0.1rem solid #000;
+    font-size: 1.8rem !important;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
