@@ -19,8 +19,9 @@ body{
 /* header styles*/
 #header{
     width: 100%;
-    padding: 2rem;
-    margin-bottom: 3rem;
+    margin: auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
     background-color: whitesmoke;
 }
 #header #logo-name{
@@ -63,4 +64,14 @@ body{
     font-weight: bold;
     margin-left: 1rem;
     padding: 0.5rem;
+}
+
+/*showcase styles*/
+#showcase{
+    height: 86.9vh;
+    width: auto;
+    background-image: url("../images/nightlight.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
