@@ -20,9 +20,9 @@ body{
 #header{
     width: 100%;
     margin: auto;
-    padding: 1.5rem;
+    padding: 1rem;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: linear-gradient(left,#000, rgba(245, 245, 245, 0.3));
 }
 #header #logo-name{
     width: 33.3%;
@@ -33,6 +33,7 @@ body{
 #header #logo-name h1{
     font-weight: bold;
     margin-left: 1rem;
+    color:#ddd;
    
 }
 #header nav{
@@ -50,7 +51,7 @@ body{
 }
 #header nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: #ddd;
     font-size: 1.8rem !important;
     font-weight: bold;
     margin-left: 1rem;
@@ -59,7 +60,7 @@ body{
 #header nav ul li a:hover{
     text-decoration: none;
     color: #ddd;
-    border-bottom: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #ddd;
     font-size: 1.8rem !important;
     font-weight: bold;
     margin-left: 1rem;
@@ -68,10 +69,41 @@ body{
 
 /*showcase styles*/
 #showcase{
-    height: 86.9vh;
+    height: 100vh;
     width: auto;
     background-image: url("../images/nightlight.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*contact pane styles*/
+
+#contact-pane{
+    width: 10rem;
+    height: auto;
+    padding:1rem;
+    position: fixed;
+    top: 20rem;
+    left: 3rem;
+    background-color:rgba(32, 31, 31, 0.25);
+    border-radius: 5rem 0;
+    
+}
+#contact-pane h4{
+    color:#ddd;
+    padding: 0.5rem;
+    text-align: left;
+    text-decoration: underline;
+}
+#contact-pane a{
+    display: block;
+    margin: 0.5rem 3rem;
+    color:#ddd;
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid #ddd;
+    text-align: center;
+}
+#contact-pane a i{
+    font-size:2.1rem !important;
 }
