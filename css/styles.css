@@ -77,6 +77,20 @@ body{
     background-size: cover;
 }
 
+/*download button style*/
+#download-resume{
+    padding:1rem;
+}
+#download-resume a{
+    display: block;
+}
+#download-resume button{
+    background-color: #ddd;
+    border: 0.1rem solid #ddd;
+    padding:1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
 /*contact pane styles*/
 
 #contact-pane{
@@ -106,4 +120,11 @@ body{
 }
 #contact-pane a i{
     font-size:2.1rem !important;
+}
+
+
+@media (max-width:645px){
+    body{
+        display: none;
+    }
 }
