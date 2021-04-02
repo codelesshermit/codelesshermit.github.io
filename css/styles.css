@@ -1,7 +1,7 @@
 html{
     font-size: 62.5% !important;
 }
-ul,h1,h2,h3,h4,h5,h6{
+ul,h1,h2,h3,h4,h5,h6,section,div,main{
  margin: 0;
 }
 body{
@@ -122,6 +122,41 @@ body{
     font-size:2.1rem !important;
 }
 
+/*about section styles*/
+#about{
+    height: 100vh;
+    width: auto;
+}
+#about #intro-info{
+    margin: 3rem ;
+    padding: 0.5rem;
+    text-align: center;
+}
+#about #intro-info h2{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#about #intro-info small{
+    font-weight: bold;
+}
+#about #information{
+    width: 100%;
+    margin: auto;
+}
+#about #information .information-tab{
+    float:left;
+    width: 21%;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    border: 0.1rem solid #000;
+    border-radius: 1rem 0;
+}
+#about #information .information-tab h3{
+    text-align: center;
+    font-weight: bold;
+    padding: 0.2rem;
+    text-decoration: underline;
+}
 
 @media (max-width:645px){
     #header #logo-name{
