@@ -166,6 +166,9 @@ body{
 #about #information .information-tab .tab-info dl dt{
     font-weight: bold;
 }
+#about #information .information-tab .tab-info .exdet{
+    display: none;
+}
 
 @media (max-width:645px){
     #header #logo-name{
