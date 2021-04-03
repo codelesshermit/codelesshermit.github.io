@@ -180,5 +180,28 @@ body{
         margin: auto;
         clear: both;
     }
+    #showcase{
+        height: 100vh;
+        width: auto;
+        background-color: #000;
+    }
+    #contact-pane{
+        width: 10rem;
+        height: auto;
+        padding:1rem;
+        position: relative;
+        top: 10rem;
+        left: 10rem;
+        background-color:rgba(32, 31, 31, 0.25);
+        border-radius: 5rem 0;
+        
+    }
+    #about #information .information-tab{
+        width: 100%;
+        margin: 0.5rem;
+        border: 0.1rem solid #000;
+        border-radius: 1rem 0;
+        background-color: rgba(0,0,0,0.5);
+    }
     
 }
