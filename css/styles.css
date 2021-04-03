@@ -163,6 +163,9 @@ body{
     padding: 0.5rem;
     text-align: left;
 }
+#about #information .information-tab .tab-info dl dt{
+    font-weight: bold;
+}
 
 @media (max-width:645px){
     #header #logo-name{
