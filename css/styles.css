@@ -135,6 +135,7 @@ body{
 #about #intro-info h2{
     text-decoration: underline;
     font-weight: bolder;
+    padding: 0.2rem;
 }
 #about #intro-info small{
     font-weight: bold;
@@ -145,17 +146,22 @@ body{
 }
 #about #information .information-tab{
     float:left;
-    width: 21%;
+    width: 31%;
     box-sizing: border-box;
     margin: 0.5rem;
     border: 0.1rem solid #000;
     border-radius: 1rem 0;
+    background-color: rgba(0,0,0,0.5);
 }
 #about #information .information-tab h3{
     text-align: center;
     font-weight: bold;
     padding: 0.2rem;
     text-decoration: underline;
+}
+#about #information .information-tab .tab-info{
+    padding: 0.5rem;
+    text-align: left;
 }
 
 @media (max-width:645px){
